@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import TodoList from './components/TodoList'
+import Cargas from './components/Cargas'
+
 
 class App extends Component{ 
 
@@ -14,10 +15,15 @@ class App extends Component{
     render(){
         return(
             <div>
-              <h1>Lista de tarefas</h1>
-              <TodoList/>
+                <div>
+                    <h1>Dados da Carga</h1>
+                </div>
+                    <Cargas/>
+                <hr/>    
+                
 
             </div>
+           
         );
     }
 }
